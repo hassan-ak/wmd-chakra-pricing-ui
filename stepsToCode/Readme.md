@@ -32,3 +32,28 @@
     return <>Pricing UI</>;
   }
   ```
+
+### 3. Install and Integrate Chakra UI
+
+- Install chakraUI in the app using follwoing command
+
+  ```cmd
+  npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+  ```
+
+- create `./chakraWrapper/Chakra.tsx` to define chakra wrapper
+
+  ```tsx
+  'use client';
+  import React from 'react';
+  import { ChakraProvider } from '@chakra-ui/react';
+  export default function ChakraWrapper({
+    children,
+  }: {
+    children: React.ReactNode;
+  }) {
+    return <ChakraProvider>{children}</ChakraProvider>;
+  }
+  ```
+
+- update `./app/layout.tsx` to wrap app elements in the chakra provider and also use some chakra component in `./app/page.tsx` to check if chakra is installed properly

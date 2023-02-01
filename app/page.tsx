@@ -1,3 +1,8 @@
+// Pricing UI App
+
+'use client';
+import { Box } from '@chakra-ui/react';
+
 export default function Home() {
-  return <>Pricing UI</>;
+  return <Box bg='green'>Pricing UI</Box>;
 }

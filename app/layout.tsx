@@ -1,12 +1,19 @@
+// Root Layout
+
+import React from 'react';
+import ChakraWrapper from '@/chakraWrapper/Chakra';
+
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <head />
-      <body>{children}</body>
+      <body>
+        <ChakraWrapper>{children}</ChakraWrapper>
+      </body>
     </html>
-  )
+  );
 }
