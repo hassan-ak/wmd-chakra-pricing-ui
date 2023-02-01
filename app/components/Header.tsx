@@ -4,6 +4,7 @@
 import React from 'react';
 import { Box, Heading, Text } from '@chakra-ui/react';
 
+// Header function to export component
 export default function Header() {
   return (
     <Box
