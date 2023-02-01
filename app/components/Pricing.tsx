@@ -2,9 +2,9 @@
 
 'use client';
 import React from 'react';
+import { CheckIcon } from '../icons/Icons';
 import { HStack, Icon, StackProps, Stack } from '@chakra-ui/react';
 import { Box, Flex, Text, Heading, Button } from '@chakra-ui/react';
-import { CheckIcon } from '../icons/Icons';
 
 // List items displaying content of the un-ordered list
 // to be used on right side of the comnponent

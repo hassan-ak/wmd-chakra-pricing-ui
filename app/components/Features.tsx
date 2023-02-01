@@ -1,9 +1,9 @@
 // Features Component
 
 'use client';
-import { Box, HStack, StackProps, Icon, Text, Stack } from '@chakra-ui/react';
-import { MBGIcon, HFIcon, MSIcon } from '../icons/Icons';
 import React from 'react';
+import { MBGIcon, HFIcon, MSIcon } from '../icons/Icons';
+import { Box, HStack, StackProps, Icon, Text, Stack } from '@chakra-ui/react';
 
 // Interface to define StackProps along with icon
 interface FeatureProps extends StackProps {
