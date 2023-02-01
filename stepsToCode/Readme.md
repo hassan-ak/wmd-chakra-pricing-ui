@@ -234,3 +234,17 @@
     );
   }
   ```
+
+### 8. Deploy on vercel
+
+- use follwoing command to deploy the app on vercel
+
+  ```cmd
+  vercel
+  ```
+
+- deployed app can be used by visiting following URL
+
+  ```url
+  https://wmd-chakra-pricing-ui.vercel.app
+  ```
